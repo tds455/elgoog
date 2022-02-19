@@ -2,7 +2,6 @@
 
 <html lang="en">
 
-<!-- This forms the basic layout template that will be used, and extended upon, by every page. -->
     <head>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, width=device-width">
@@ -16,7 +15,7 @@
     <body>
         <div class="card text-center">
             <div class="card-header">
-              <ul class="nav nav-pills card-header-pills">
+              <ul class="nav nav-pills card-header-pills justify-content-end">
                 <li class="nav-item">
                   <a class="nav-link active" href="#">Search</a>
                 </li>
@@ -29,12 +28,12 @@
               </ul>
             </div>
             <div class="card-body">
+              <!-- Put an image here -->
                 <form action="https://google.com/search">
                     <input type="text" name="q">
                     <div class="form-row align-items-center">
                         <div class="col-auto">
-                            <button type="submit" name="submit" class="btn btn-primary mb-2">Submit</button>
-                            <button type="submit" name="lucky" class="btn btn-primary mb-2">I'm feeling lucky</button>
+                            <button type="submit" name="submit" class="btn btn-primary mb-2">Search</button>
                         </div>
                     </div>                   
                 </form>
