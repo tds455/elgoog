@@ -1,1 +1,8 @@
-19/02 - added justify-content-end to align navigation bar to the right side of the screen
+19/02
+
+added justify-content-end to align navigation bar to the right side of the screen
+
+added images.html
+This is a copy of index.html with navbar changes and the form action changed to http://images.google.com/images
+I initally had some problems with this as google have changed the main page function to use https://www.google.com/search 
+with a tag of &tbm=isch and I spent a while trying to add this tag to the input
